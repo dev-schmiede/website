@@ -5,3 +5,4 @@ params:
     event:    
       title: dev-schmiede
       baseURL: https://dev-schmiede.org/
+      sessionizeId: 17iarhi9
