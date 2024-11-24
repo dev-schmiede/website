@@ -3,7 +3,8 @@
   "configurations": {
     "dev-schmiede-website": {
       "appLocation": ".",
-      "outputLocation": "public"
+      "outputLocation": "public",
+      "appBuildCommand": "hugo build"
     }
   }
 }
