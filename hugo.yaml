@@ -5,4 +5,77 @@ params:
     event:    
       title: dev-schmiede
       baseURL: https://dev-schmiede.org/
-      sessionizeId: 17iarhi9
+      sessionizeId: 8hzdltjg
+      shortTitle: dev-schmiede
+      location: Berlin, Germany
+      startDate: 2025-03-08
+      endDate: 2025-03-09
+      address:
+        - Building
+        - Street
+        - City
+        - Country
+      callToAction:
+        other:
+          url: https://dev-schmiede.org/
+        enableBanner: true
+      images:
+        logo: logos/dev-schmiede-logo.svg
+        titleBackground: images/Schmiede2.jpg
+        location: images/pexels-scottwebb-1048039.webp
+      colors:
+        primaryLighter: '#ff787d'
+        primary: '#BD2A2E'
+        primaryDarker: '#5a0101'
+        primaryDarkest: '#111928'
+        secondary: '#f2fcfc'
+        secondaryDarker: '#B2BEBF'
+        track: '#015a57'
+        shadow: '#a6afc366'
+  custom_css: ["styles/custom.css"]
+
+defaultContentLanguage: de
+languages:
+    en:
+        languageName: English
+        disabled: true
+        params:
+            themes:
+                event:
+                    slogan: A Hugo Theme for Conferences
+                    description: |
+                        This is a placeholder for your event description. You can customize it,
+                        together with all other settings, in your Hugo configuration file.
+                        We hope you enjoy using this theme! 🎉
+                    directions: |
+                        Directions for getting to the location using public transportation. 
+                        Customize this placeholder text in your Hugo configuration file or remove it if not needed.
+                    # 👇 This field provides an introduction or overview about the event or organization.
+                    # You can customize it to describe the event, highlight key aspects, or leave any important message.
+                    # Markdown formatting is supported, allowing you to add links, bold text, and more.
+                    aboutUs: |
+                        More information about the event will be added soon. Stay tuned! 🎉
+    de:
+        languageName: Deutsch
+        disabled: false
+        params:
+            themes:
+                event:
+                    slogan: Workshops für die Community
+                    description: |
+                        Diese Idee ist vor langer Zeit schon einmal umgesetzt worden. 
+                        Doch durch diverse Umstände ist dieses Konzept eingeschlafen. 
+
+                        Wir möchten es nun wieder aufleben lassen und die Community in 
+                        gewohnter Form zusammenbringen. Zwei Tage voller Workshops, organisiert
+                        und durchgeführt von der Community.
+
+                    directions: |
+                        Wegbeschreibung zum Veranstaltungsort mit öffentlichen Verkehrsmitteln.
+                        Passen Sie diesen Platzhaltertext in Ihrer Hugo-Konfigurationsdatei an oder entfernen Sie ihn,
+                        wenn er nicht benötigt wird.
+                    # 👇 This field provides an introduction or overview about the event or organization.
+                    # You can customize it to describe the event, highlight key aspects, or leave any important message.
+                    # Markdown formatting is supported, allowing you to add links, bold text, and more.
+                    aboutUs: |
+                        Weitere Informationen über die Veranstaltung werden bald hinzugefügt. Bleiben Sie dran! 🎉
