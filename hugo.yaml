@@ -20,7 +20,8 @@ params:
           url: https://dev-schmiede.org/
         enableBanner: true
       images:
-        logo: logos/dev-schmiede-logo.svg
+        logo: logos/lightmode-logo-devschmiede-1.png
+        headerLogo: images/header-logo.png
         titleBackground: images/Schmiede2.jpg
         location: images/pexels-scottwebb-1048039.webp
       colors:
