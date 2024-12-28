@@ -20,7 +20,7 @@ params:
           url: https://dev-schmiede.org/
         enableBanner: true
       images:
-        logo: logos/lightmode-logo-devschmiede-1.png
+        logo: logos/lightmode-logo-devschmiede-1-ohne-text.png
         headerLogo: images/header-logo.png
         titleBackground: images/Schmiede2.jpg
         location: images/pexels-scottwebb-1048039.webp
@@ -30,7 +30,7 @@ params:
         primaryDarker: '#5a0101'
         primaryDarkest: '#111928'
         secondary: '#f2fcfc'
-        secondaryDarker: '#B2BEBF'
+        secondaryDarker: '#525b5c'
         track: '#015a57'
         shadow: '#a6afc366'
   custom_css: ["styles/custom.css"]
@@ -62,15 +62,10 @@ languages:
         params:
             themes:
                 event:
-                    slogan: Workshops für die Community
+                    slogan: Workshops von der Community, für die Community
                     description: |
-                        Diese Idee ist vor langer Zeit schon einmal umgesetzt worden. 
-                        Doch durch diverse Umstände ist dieses Konzept eingeschlafen. 
-
-                        Wir möchten es nun wieder aufleben lassen und die Community in 
-                        gewohnter Form zusammenbringen. Zwei Tage voller Workshops, organisiert
-                        und durchgeführt von der Community.
-
+                        Mit der dev-schmiede 🛠️ möchten wir allen interessierten EntwicklerInnen eine Möglichkeit bieten, sich in ihren Skills weiterzuentwickeln oder in neue Technologien einzusteigen. Dazu gehen wir auf Veranstaltungen, um zu erfahen, was die Community interessiert und welche Themen aktuell sind. Anschließend suchen wir nach Personen in der Community, die die passenden Workshops anbieten können.
+                        
                     directions: |
                         Wegbeschreibung zum Veranstaltungsort mit öffentlichen Verkehrsmitteln.
                         Passen Sie diesen Platzhaltertext in Ihrer Hugo-Konfigurationsdatei an oder entfernen Sie ihn,
