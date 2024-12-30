@@ -4,7 +4,6 @@ params:
   themes:
     event:    
       title: dev-schmiede
-      baseURL: https://dev-schmiede.org/
       sessionizeId: 17iarhi9
       shortTitle: dev-schmiede
       location: Berlin
