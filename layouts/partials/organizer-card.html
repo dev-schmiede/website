@@ -1,0 +1,31 @@
+{{ $input := . }}
+
+<div class="organizer-card">
+
+    <img
+        class="organizer-card__avatar"
+        src="{{ $input.profileUrl }}"
+        alt="{{ $input.name }}"
+        width="256"
+        height="256" />
+            
+    <h1 class="heading">{{ $input.firstName }} {{ $input.lastName }}</h1>
+    <p class="organizer-card__description">{{ $input.description }}</p>
+
+    <div class="organizer-card__social-links">
+        {{ $ariaLabel := T "speakers_page.social_links" $input.name }}
+        {{- $hasSocialLinks := or $input.linkedinUrl $input.xUrl $input.companyUrl }}
+
+        {{- if $hasSocialLinks }}
+            {{- partial "social-links.html" (
+                dict
+                "linkedinUrl" $input.linkedinUrl
+                "xUrl" $input.xUrl
+                "companyUrl" $input.companyUrl
+                "linkClass" "organizer-card__social-link"
+                "ariaLabel" $ariaLabel
+                )
+            }}
+        {{- end }}
+    </div>
+</div>

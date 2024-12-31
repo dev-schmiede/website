@@ -36,41 +36,95 @@ params:
 
 defaultContentLanguage: de
 languages:
-    en:
-        languageName: English
-        disabled: true
-        params:
-            themes:
-                event:
-                    slogan: A Hugo Theme for Conferences
-                    description: |
-                        This is a placeholder for your event description. You can customize it,
-                        together with all other settings, in your Hugo configuration file.
-                        We hope you enjoy using this theme! 🎉
-                    directions: |
-                        Directions for getting to the location using public transportation. 
-                        Customize this placeholder text in your Hugo configuration file or remove it if not needed.
-                    # 👇 This field provides an introduction or overview about the event or organization.
-                    # You can customize it to describe the event, highlight key aspects, or leave any important message.
-                    # Markdown formatting is supported, allowing you to add links, bold text, and more.
-                    aboutUs: |
-                        More information about the event will be added soon. Stay tuned! 🎉
-    de:
-        languageName: Deutsch
-        disabled: false
-        params:
-            themes:
-                event:
-                    slogan: Workshops von der Community, für die Community
-                    description: |
-                        Mit der dev-schmiede 🛠️ möchten wir allen interessierten EntwicklerInnen eine Möglichkeit bieten, sich in ihren Skills weiterzuentwickeln oder in neue Technologien einzusteigen. Dazu gehen wir auf Veranstaltungen, um zu erfahen, was die Community interessiert und welche Themen aktuell sind. Anschließend suchen wir nach Personen in der Community, die die passenden Workshops anbieten können.
-                        
-                    directions: |
-                        Wegbeschreibung zum Veranstaltungsort mit öffentlichen Verkehrsmitteln.
-                        Passen Sie diesen Platzhaltertext in Ihrer Hugo-Konfigurationsdatei an oder entfernen Sie ihn,
-                        wenn er nicht benötigt wird.
-                    # 👇 This field provides an introduction or overview about the event or organization.
-                    # You can customize it to describe the event, highlight key aspects, or leave any important message.
-                    # Markdown formatting is supported, allowing you to add links, bold text, and more.
-                    aboutUs: |
-                        Weitere Informationen über die Veranstaltung werden bald hinzugefügt. Bleiben Sie dran! 🎉
+  _merge: deep
+  de:
+    languageName: Deutsch
+    disabled: false
+    menus:
+      secondary:
+        - identifier: location
+          pageRef: /location
+          weight: 10
+          params:
+              description: |
+                  Finde heraus, wo die dev-schmiede stattfindet, wie du dorthin kommst und was dich erwartet. Außerdem werden Vorschläge gemacht, wo du am besten unterkommst. Ein Kontingent für Hotels haben wir leider nicht.
+        
+        - identifier: workshops
+          pageRef: /workshops
+          weight: 30
+          params:
+              description: |
+                  Unsere Workshops haben den Anspruch tiefer zu gehen, als bei den klassischen Konferenzen. Wir möchten, dass du nach dem Workshop etwas gelernt hast und das Gelernte direkt in deinem Projekt anwenden kannst.
+                  Suche den Workshop aus, der am besten zu dir passt und melde dich an. 
+        
+        - identifier: code_of_conduct
+          pageRef: /code-of-conduct
+          weight: 40
+          params:
+              description: |
+                  Lesen Sie die Verhaltensregeln für unsere Veranstaltung.
+                  Dieser Abschnitt beschreibt die Erwartungen an das Verhalten der Teilnehmer
+                  und die Veranstaltungsrichtlinien.
+        
+        - identifier: about
+          pageRef: /about
+          weight: 60
+          params:
+              description: |
+                  Erfahre mehr über unsere Mission, Werte und die Menschen hinter der dev-schmiede.
+                  Die Seite „Über uns“ bietet Einblicke, wer wir sind, was wir tun
+                  und warum wir leidenschaftlich an unserer Arbeit interessiert sind.
+    
+    params:
+      themes:
+        event:
+          slogan: Workshops von der Community, für die Community
+          description: |
+            Mit der dev-schmiede 🛠️ möchten wir allen interessierten EntwicklerInnen eine Möglichkeit bieten, sich in ihren Skills weiterzuentwickeln oder in neue Technologien einzusteigen. Dazu gehen wir auf Veranstaltungen, um zu erfahen, was die Community interessiert und welche Themen aktuell sind. Anschließend suchen wir nach Personen in der Community, die die passenden Workshops anbieten können.
+                  
+          directions: |
+            Wegbeschreibung zum Veranstaltungsort mit öffentlichen Verkehrsmitteln.
+            Passen Sie diesen Platzhaltertext in Ihrer Hugo-Konfigurationsdatei an oder entfernen Sie ihn,
+            wenn er nicht benötigt wird.
+            # 👇 This field provides an introduction or overview about the event or organization.
+            # You can customize it to describe the event, highlight key aspects, or leave any important message.
+            # Markdown formatting is supported, allowing you to add links, bold text, and more.
+          
+          aboutUs: |
+            Im Jahr 2024 haben wir einen Verein gegründet, um die dev-schmiede zu organisieren. Der Zweck des Vereins ist die Förderung der Bildung und Weiterbildung von EntwicklerInnen. Wir möchten eine Plattform schaffen, auf der sich EntwicklerInnen austauschen und voneinander lernen können. Die dev-schmiede ist eine Veranstaltung, die von der Community für die Community organisiert wird. Wir freuen uns, wenn du dabei bist! 🎉
+
+          organizers:
+            - organizer:
+              firstName: Marco
+              lastName: Rasp
+              profileUrl: https://avatars.githubusercontent.com/u/165155?v=4
+              description: |
+                Marco ist ehemaliger Community Lead der Alt.Net Berlin und aktives Mitglied der Berliner Community.
+            - organizer:
+              firstName: Janek
+              lastName: Fellien
+              profileUrl: https://avatars.githubusercontent.com/u/923124?v=4
+              description: |
+                Seit über 15 Jahren ist Janek in der Microsoft Community tätig. 
+                Bei der Medialesson GmbH realisiert er als Principal Software Engineer  vor allem Cloudgestützte Softwaresysteme. Sein Steckenpferd sind die serverless Technologien.
+                Seit 2017 ist er Microsoft MVP für Azure und Development.
+  en:
+    languageName: English
+    disabled: true
+    params:
+      themes:
+        event:
+          slogan: A Hugo Theme for Conferences
+          description: |
+            This is a placeholder for your event description. You can customize it,
+            together with all other settings, in your Hugo configuration file.
+            We hope you enjoy using this theme! 🎉
+          directions: |
+            Directions for getting to the location using public transportation. 
+            Customize this placeholder text in your Hugo configuration file or remove it if not needed.
+            # 👇 This field provides an introduction or overview about the event or organization.
+            # You can customize it to describe the event, highlight key aspects, or leave any important message.
+            # Markdown formatting is supported, allowing you to add links, bold text, and more.
+          aboutUs: |
+            More information about the event will be added soon. Stay tuned! 🎉
+  

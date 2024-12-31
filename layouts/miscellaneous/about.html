@@ -1,0 +1,45 @@
+{{ define "main" }}
+    {{ $event := .Site.Params.themes.event }}
+    {{- $organizers := .Site.Params.themes.event.organizers }}
+
+
+    <div class="section-container">
+        <section class="section about">
+            <h1 class="heading heading--1">{{- T "about_page.heading" }}</h1>
+            {{ with $event.aboutUs }}
+                <div class="markdown about__text">
+                    {{ . | markdownify }}
+                </div>
+            {{ end }}
+
+            {{ if gt (len $organizers) 0 }}
+                <!-- Check if the $organizers array is not empty -->
+                <h2 class="heading heading--2">{{- T "about_page.organizers_heading" $event.title }}</h2>
+
+                <menu class="about__organizers-menu">
+                    {{- range $organizers }}
+                        <li>
+                            {{- partial "organizer-card.html" (
+                                dict
+                                "firstName" .firstName
+                                "lastName" .lastName
+                                "profileUrl" .profileUrl
+                                "description" .description
+                                "linkedinUrl" .linkedinUrl
+                                "companyUrl" .companyUrl
+                                )
+                            }}
+                        </li>
+                    {{- end }}
+                </menu>
+            {{ end }}
+        </section>
+    </div>
+
+    {{- partial "sections/cta.html" (
+        dict
+        "eventbriteId" $event.callToAction.eventbrite.eventId
+        "ctaUrl" $event.callToAction.other.url
+        )
+    }}
+{{ end }}
