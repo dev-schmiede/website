@@ -3,7 +3,7 @@ sectionPagesMenu: main
 params:
   themes:
     event:    
-      title: dev-schmiede
+      title: dev-schmiede Berlin 2025
       sessionizeId: 17iarhi9
       shortTitle: dev-schmiede
       location: Berlin
@@ -21,7 +21,7 @@ params:
       images:
         logo: logos/lightmode-logo-devschmiede-1-ohne-text.png
         headerLogo: images/header-logo.png
-        titleBackground: images/Schmiede2.jpg
+        titleBackground: images/Schmiede1.jpg
         location: images/pexels-scottwebb-1048039.webp
       colors:
         primaryLighter: '#ff787d'
