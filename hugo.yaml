@@ -41,40 +41,23 @@ languages:
     languageName: Deutsch
     disabled: false
     menus:
-      secondary:
+      main:
         - identifier: location
           pageRef: /location
           weight: 10
-          params:
-              description: |
-                  Finde heraus, wo die dev-schmiede stattfindet, wie du dort hin kommst und was dich erwartet. Außerdem werden Vorschläge gemacht, wo du am besten unterkommst. Ein Kontingent für Hotels haben wir leider nicht.
-        
-        - identifier: workshops
-          pageRef: /workshops
-          weight: 30
-          params:
-              description: |
-                  Unsere Workshops haben den Anspruch tiefer zu gehen, als bei den klassischen Konferenzen. Wir möchten, dass du nach dem Workshop etwas gelernt hast und das Gelernte direkt in deinem Projekt anwenden kannst.
-                  Suche den Workshop aus, der am besten zu dir passt und melde dich an. 
-        
         - identifier: code_of_conduct
           pageRef: /code-of-conduct
-          weight: 40
-          params:
-              description: |
-                  Lesen Sie die Verhaltensregeln für unsere Veranstaltung.
-                  Dieser Abschnitt beschreibt die Erwartungen an das Verhalten der Teilnehmer
-                  und die Veranstaltungsrichtlinien.
-        
+          weight: 20
         - identifier: about
           pageRef: /about
-          weight: 60
-          params:
-              description: |
-                  Erfahre mehr über unsere Mission, Werte und die Menschen hinter der dev-schmiede.
-                  Die Seite „Über uns“ bietet Einblicke, wer wir sind, was wir tun
-                  und warum wir leidenschaftlich an unserer Arbeit interessiert sind.
-    
+          weight: 30
+      footer:
+        - identifier: imprint
+          pageRef: /imprint
+          weight: 10
+        - identifier: privacy
+          pageRef: /privacy-policy
+          weight: 20
     params:
       themes:
         event:
@@ -113,9 +96,9 @@ languages:
             - workshop: Godot
               date: 2025-03-08
               description: |
-                #### Erstelle VR Games mit der Godot Engine
+                #### Erstelle VR Games mit der Godot Engine 🇩🇪
 
-                [Jonas Hundertmark](https://www.linkedin.com/in/jonas-hundertmark-b384b699) 
+                [Jonas Hundertmark](https://www.linkedin.com/in/jonas-hundertmark-b384b699/) 
 
                 Ziel des Workshops ist es, ein kleines 3D-Spiel zu erstellen, welches anschließend auch in der Virtuellen Realität bedient werden kann. Hierfür lernen die Teilnehmenden zu Anfang den Umgang mit der freien und Open Source Game Engine Godot kennen. Wir erlernen gemeinsam die Projektstruktur, Szenen, Interaktions-Systeme, das Godot-Eventsystem und Skripting mit GDScript. Anschließend erstellen wir ein kleinen Gruppen eine auf VR-Brillen ausführbare App.
  
@@ -151,11 +134,11 @@ languages:
             - workshop: EventStorming
               date: 2025-03-08
               description: |
-                #### Event Storming
+                #### Event Storming 🇩🇪
 
-                [Marco Rasp]()
+                [Marco Rasp](https://www.linkedin.com/in/marcorasp/)
 
-                In diesem Workshop lernst du, wie du Event Storming einsetzen kannst
+                In diesem Workshop werden wir praktisch die Konzepte von EventStorming erarbeiten. EventStorming ist eine Form des gemeinsamen Erkundens einer Domäne und wurde von Alberto Brandolini entwickelt. Wir werden uns hauptsächlich auf Big Picture EvenStorming konzentrieren. Es wird weder Vorwissen zum Workshop noch zum Thema Domain-Driven Design benötigt.
 
             - workshop: SoftwareArchitecture
               date: 2025-03-09
