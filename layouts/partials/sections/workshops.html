@@ -1,0 +1,19 @@
+{{ $input := . }}
+
+<div class="section-container">
+    <section class="section workshops">
+
+        <h2 class="heading heading--2">Workshops 2025</h2>
+        
+        {{- range $input.workshops }}
+            
+            {{- partial "workshop-card.html" (
+                dict
+                "description" .description
+                "date" .date
+                )
+            }}
+        
+        {{- end }}
+    </section>
+</div>

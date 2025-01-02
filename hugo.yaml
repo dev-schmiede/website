@@ -47,7 +47,7 @@ languages:
           weight: 10
           params:
               description: |
-                  Finde heraus, wo die dev-schmiede stattfindet, wie du dorthin kommst und was dich erwartet. Außerdem werden Vorschläge gemacht, wo du am besten unterkommst. Ein Kontingent für Hotels haben wir leider nicht.
+                  Finde heraus, wo die dev-schmiede stattfindet, wie du dort hin kommst und was dich erwartet. Außerdem werden Vorschläge gemacht, wo du am besten unterkommst. Ein Kontingent für Hotels haben wir leider nicht.
         
         - identifier: workshops
           pageRef: /workshops
@@ -108,6 +108,99 @@ languages:
                 Seit über 15 Jahren ist Janek in der Microsoft Community tätig. 
                 Bei der Medialesson GmbH realisiert er als Principal Software Engineer  vor allem Cloudgestützte Softwaresysteme. Sein Steckenpferd sind die serverless Technologien.
                 Seit 2017 ist er Microsoft MVP für Azure und Development.
+
+          workshops:
+            - workshop: Godot
+              date: 2025-03-08
+              description: |
+                #### Erstelle VR Games mit der Godot Engine
+
+                [Jonas Hundertmark](https://www.linkedin.com/in/jonas-hundertmark-b384b699) 
+
+                Ziel des Workshops ist es, ein kleines 3D-Spiel zu erstellen, welches anschließend auch in der Virtuellen Realität bedient werden kann. Hierfür lernen die Teilnehmenden zu Anfang den Umgang mit der freien und Open Source Game Engine Godot kennen. Wir erlernen gemeinsam die Projektstruktur, Szenen, Interaktions-Systeme, das Godot-Eventsystem und Skripting mit GDScript. Anschließend erstellen wir ein kleinen Gruppen eine auf VR-Brillen ausführbare App.
+ 
+                Für den Workshop notwendig sind grundlegende Kenntnisse in der Programmierung, jedoch keine spezifischen Kenntnisse zu Game Programming. Ein Laptop mit OpenGL 3-kompatibler Grafikeinheit wird außerdem vorausgesetzt. Eigene VR-Headsets können mitgenommen werden, sind jedoch für den Workshop nicht notwendig.
+            
+            - workshop: FSharp
+              date: 2025-03-08
+              description: |
+                #### FSharp
+
+                [Max Malook]()
+
+                In diesem Workshop lernst du, wie du mit F# eine tolle App bauen kannst.
+            
+            - workshop: SemanticKernel
+              date: 2025-03-08
+              description: |
+                #### Semantic Kernel
+
+                [Sia Ghassemi]()
+
+                In diesem Workshop lernst du, wie du Semantic Kernel einsetzen kannst
+            
+            - workshop: EventSourcing
+              date: 2025-03-08
+              description: |
+                #### Event Sourcing
+
+                [Marco Heimeshoff]()
+
+                In diesem Workshop lernst du, wie du EventSourcing einsetzen kannst
+            
+            - workshop: EventStorming
+              date: 2025-03-08
+              description: |
+                #### Event Storming
+
+                [Marco Rasp]()
+
+                In diesem Workshop lernst du, wie du Event Storming einsetzen kannst
+
+            - workshop: SoftwareArchitecture
+              date: 2025-03-09
+              description: |
+                #### Software Architekturen
+
+                [John Doe]()
+
+                In diesem Workshop lernst du, wie du Softwarearchitekturen einsetzen kannst
+            
+            - workshop: Security
+              date: 2025-03-09
+              description: |
+                #### Security
+
+                [Lars Matzer]()
+
+                In diesem Workshop lernst du, wie du Security einsetzen kannst
+              
+            - workshop: PowerPlatform
+              date: 2025-03-09
+              description: |
+                #### Power Platform M365
+
+                [John Doe]()
+
+                In diesem Workshop lernst du, wie du M365 einsetzen kannst
+            
+            - workshop: Agile
+              date: 2025-03-09
+              description: |
+                #### Agile
+
+                [John Doe]()
+
+                In diesem Workshop lernst du, wie du Agile einsetzen kannst
+
+            - workshop: TBD
+              date: 2025-03-09
+              description: |
+                #### TBD
+
+                [John Doe]()
+
+                In diesem Workshop lernst du, wie du TBD einsetzen kannst
   en:
     languageName: English
     disabled: true
