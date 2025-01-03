@@ -62,8 +62,13 @@ languages:
       themes:
         event:
           slogan: Workshops von der Community, für die Community
+
           description: |
             Mit der dev-schmiede 🛠️ möchten wir allen interessierten EntwicklerInnen eine Möglichkeit bieten, sich in ihren Skills weiterzuentwickeln oder in neue Technologien einzusteigen. Dazu gehen wir auf Veranstaltungen, um zu erfahen, was die Community interessiert und welche Themen aktuell sind. Anschließend suchen wir nach Personen in der Community, die die passenden Workshops anbieten können.
+
+            Wir sind schwarmfinaziert 💰. Das heißt keine Sponsoren und keine Werbung. Die Einnahmen werden ausschließlich für das Gelingen der dev-schmiede verwendet. Wir möchten eine Plattform schaffen, auf der sich EntwicklerInnen austauschen und voneinander lernen können und nicht durch Verkaufsveranstaltungen abgelenkt werden.
+
+            Nach getaner Arbeit, sprich nach den Workshops, veranstalten wir eine Abschlussparty 🪩 mit allen Teilnehmenden und Workshophosts. Hier kann weiter gefachsimpelt werden und mal sehen, vielleicht fällt uns ja noch eine lustige Überraschung ein 😉.
                   
           directions: |
             #### Öffentliche Verkehrsmittel
