@@ -2,6 +2,12 @@ body {
     background-color: #fff5e7;
 }
 
+.event-highlights-section {
+    border: 0;
+    border-top: 1px dashed #eeeeee;
+    border-bottom: 1px dashed #bfbfbf;
+}
+
 colors{
     primaryLighter: #ff787d;
     primary: #BD2A2E;
