@@ -23,37 +23,5 @@
                 <p class="paragraph event-highlights-section__paragraph">{{ $input.description | markdownify }}</p>
             </article>
         </header>
-
-        <article class="event-highlights-section__figures">
-            {{- if $input.numberOfSpeakers }}
-                {{ partial "highlight-figure.html" (
-                    dict
-                    "icon" "images/icons/speaker.svg"
-                    "caption" (T "event_highlights_section.number_of_speakers" $input.numberOfSpeakers)
-                    )
-                }}
-            {{- end }}
-            {{- if $input.numberOfSessions }}
-                {{- partial "highlight-figure.html" (
-                    dict "icon" "images/icons/session.svg"
-                    "caption" (T "event_highlights_section.number_of_sessions" $input.numberOfSessions)
-                    )
-                }}
-            {{- end }}
-            {{- if $input.numberOfDays }}
-                {{- partial "highlight-figure.html" (
-                    dict "icon" "images/icons/calendar.svg"
-                    "caption" (T "event_highlights_section.number_of_days" $input.numberOfDays)
-                    )
-                }}
-            {{- end }}
-            {{- if $input.location }}
-                {{- partial "highlight-figure.html" (
-                    dict "icon" "images/icons/location.svg"
-                    "caption" $input.location
-                    )
-                }}
-            {{- end }}
-        </article>
     </section>
 </div>

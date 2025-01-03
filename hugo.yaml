@@ -8,7 +8,7 @@ params:
       shortTitle: dev-schmiede
       location: Berlin
       startDate: 2025-03-08
-      endDate: 2025-03-09
+      endDate: 2025-03-08
       address:
         - Building
         - Street
@@ -77,13 +77,14 @@ languages:
             Im Jahr 2024 haben wir einen Verein gegründet, um die dev-schmiede zu organisieren. Der Zweck des Vereins ist die Förderung der Bildung und Weiterbildung von EntwicklerInnen. Wir möchten eine Plattform schaffen, auf der sich EntwicklerInnen austauschen und voneinander lernen können. Die dev-schmiede ist eine Veranstaltung, die von der Community für die Community organisiert wird. Wir freuen uns, wenn du dabei bist! 🎉
 
           organizers:
-            - organizer:
+            - organizer: Marco
               firstName: Marco
               lastName: Rasp
               profileUrl: https://avatars.githubusercontent.com/u/165155?v=4
               description: |
                 Marco ist ehemaliger Community Lead der Alt.Net Berlin und aktives Mitglied der Berliner Community.
-            - organizer:
+                
+            - organizer: Janek
               firstName: Janek
               lastName: Fellien
               profileUrl: https://avatars.githubusercontent.com/u/923124?v=4
@@ -93,8 +94,16 @@ languages:
                 Seit 2017 ist er Microsoft MVP für Azure und Development.
 
           workshops:
+
+            - workshop: SemanticKernel
+              description: |
+                #### Semantic Kernel 🇩🇪
+
+                [Sia Ghassemi](https://www.linkedin.com/in/dersia/)
+
+                TBD
+
             - workshop: Godot
-              date: 2025-03-08
               description: |
                 #### Erstelle VR Games mit der Godot Engine 🇩🇪
 
@@ -103,104 +112,37 @@ languages:
                 Ziel des Workshops ist es, ein kleines 3D-Spiel zu erstellen, welches anschließend auch in der Virtuellen Realität bedient werden kann. Hierfür lernen die Teilnehmenden zu Anfang den Umgang mit der freien und Open Source Game Engine Godot kennen. Wir erlernen gemeinsam die Projektstruktur, Szenen, Interaktions-Systeme, das Godot-Eventsystem und Skripting mit GDScript. Anschließend erstellen wir ein kleinen Gruppen eine auf VR-Brillen ausführbare App.
  
                 Für den Workshop notwendig sind grundlegende Kenntnisse in der Programmierung, jedoch keine spezifischen Kenntnisse zu Game Programming. Ein Laptop mit OpenGL 3-kompatibler Grafikeinheit wird außerdem vorausgesetzt. Eigene VR-Headsets können mitgenommen werden, sind jedoch für den Workshop nicht notwendig.
-            
-            - workshop: FSharp
-              date: 2025-03-08
-              description: |
-                #### FSharp
 
-                [Max Malook]()
-
-                In diesem Workshop lernst du, wie du mit F# eine tolle App bauen kannst.
-            
-            - workshop: SemanticKernel
-              date: 2025-03-08
-              description: |
-                #### Semantic Kernel
-
-                [Sia Ghassemi]()
-
-                In diesem Workshop lernst du, wie du Semantic Kernel einsetzen kannst
-            
             - workshop: EventSourcing
-              date: 2025-03-08
               description: |
-                #### Event Sourcing
+                #### Event Sourcing 🇩🇪
 
-                [Marco Heimeshoff]()
+                [Marco Heimeshoff](https://www.linkedin.com/in/heimeshoff/)
 
-                In diesem Workshop lernst du, wie du EventSourcing einsetzen kannst
-            
+                TBD
+
             - workshop: EventStorming
-              date: 2025-03-08
               description: |
                 #### Event Storming 🇩🇪
 
                 [Marco Rasp](https://www.linkedin.com/in/marcorasp/)
 
-                In diesem Workshop werden wir praktisch die Konzepte von EventStorming erarbeiten. EventStorming ist eine Form des gemeinsamen Erkundens einer Domäne und wurde von Alberto Brandolini entwickelt. Wir werden uns hauptsächlich auf Big Picture EvenStorming konzentrieren. Es wird weder Vorwissen zum Workshop noch zum Thema Domain-Driven Design benötigt.
+                In diesem Workshop werden wir praktisch die Konzepte von EventStorming erarbeiten. 
+                
+                EventStorming ist eine Form des gemeinsamen Erkundens einer Domäne und wurde von [Alberto Brandolini](https://www.linkedin.com/in/brando/) entwickelt. Wir werden uns hauptsächlich auf das Big Picture EvenStorming konzentrieren, wofür du kein Vorwissen für diese Methode oder zum Thema Domain-Driven Design benötigst. Ich zeige dir, wie du auf kolaborativem Weg mit bunten Stickies und einem Stift, effektiv die Geschäftsprozesse deiner Domäne visualisieren kannst.
 
+            - workshop: FSharp
+              description: |
+                #### FSharp 🇩🇪
+
+                [Max Malook](https://www.linkedin.com/in/maxmalook/)
+
+                TBD
+                
             - workshop: SoftwareArchitecture
-              date: 2025-03-09
               description: |
-                #### Software Architekturen
+                #### Effektive Software Architekturen 🇩🇪
 
-                [John Doe]()
+                [INNOQ](https://www.linkedin.com/company/innoq/posts/?feedView=all)
 
-                In diesem Workshop lernst du, wie du Softwarearchitekturen einsetzen kannst
-            
-            - workshop: Security
-              date: 2025-03-09
-              description: |
-                #### Security
-
-                [Lars Matzer]()
-
-                In diesem Workshop lernst du, wie du Security einsetzen kannst
-              
-            - workshop: PowerPlatform
-              date: 2025-03-09
-              description: |
-                #### Power Platform M365
-
-                [John Doe]()
-
-                In diesem Workshop lernst du, wie du M365 einsetzen kannst
-            
-            - workshop: Agile
-              date: 2025-03-09
-              description: |
-                #### Agile
-
-                [John Doe]()
-
-                In diesem Workshop lernst du, wie du Agile einsetzen kannst
-
-            - workshop: TBD
-              date: 2025-03-09
-              description: |
-                #### TBD
-
-                [John Doe]()
-
-                In diesem Workshop lernst du, wie du TBD einsetzen kannst
-  en:
-    languageName: English
-    disabled: true
-    params:
-      themes:
-        event:
-          slogan: A Hugo Theme for Conferences
-          description: |
-            This is a placeholder for your event description. You can customize it,
-            together with all other settings, in your Hugo configuration file.
-            We hope you enjoy using this theme! 🎉
-          directions: |
-            Directions for getting to the location using public transportation. 
-            Customize this placeholder text in your Hugo configuration file or remove it if not needed.
-            # 👇 This field provides an introduction or overview about the event or organization.
-            # You can customize it to describe the event, highlight key aspects, or leave any important message.
-            # Markdown formatting is supported, allowing you to add links, bold text, and more.
-          aboutUs: |
-            More information about the event will be added soon. Stay tuned! 🎉
-  
+                TBD
