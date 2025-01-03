@@ -10,19 +10,19 @@ params:
       startDate: 2025-03-08
       endDate: 2025-03-08
       address:
-        - Building
-        - Street
-        - City
-        - Country
+        - adesso SE
+        - Prinzenstraße 34
+        - 10969 Berlin
+        - Germany
       callToAction:
         other:
-          url: https://dev-schmiede.org/
-        enableBanner: true
+          url: https://events.justattend.com/events/conference-tickets/3e65b640
+        enableBanner: false
       images:
         logo: logos/lightmode-logo-devschmiede-1-ohne-text.png
         headerLogo: images/header-logo.png
         titleBackground: images/Schmiede1.jpg
-        location: images/pexels-scottwebb-1048039.webp
+        location: images/adesso_se.jpg
       colors:
         primaryLighter: '#ff787d'
         primary: '#BD2A2E'
@@ -66,12 +66,13 @@ languages:
             Mit der dev-schmiede 🛠️ möchten wir allen interessierten EntwicklerInnen eine Möglichkeit bieten, sich in ihren Skills weiterzuentwickeln oder in neue Technologien einzusteigen. Dazu gehen wir auf Veranstaltungen, um zu erfahen, was die Community interessiert und welche Themen aktuell sind. Anschließend suchen wir nach Personen in der Community, die die passenden Workshops anbieten können.
                   
           directions: |
-            Wegbeschreibung zum Veranstaltungsort mit öffentlichen Verkehrsmitteln.
-            Passen Sie diesen Platzhaltertext in Ihrer Hugo-Konfigurationsdatei an oder entfernen Sie ihn,
-            wenn er nicht benötigt wird.
-            # 👇 This field provides an introduction or overview about the event or organization.
-            # You can customize it to describe the event, highlight key aspects, or leave any important message.
-            # Markdown formatting is supported, allowing you to add links, bold text, and more.
+            #### Öffentliche Verkehrsmittel
+            Der Moritzplatz ist in direkter Nähe und wird von der **U8** 🚊 angefahren. Von dort sind es nur 150m bis zur Prinzenstraße 34.
+
+            Am Moritzplatz hält auch der **M29** Bus 🚌. Der **140**er Bus 🚌 hält Ritter Ecke Prinzenstraße.
+
+            #### Auto und Parken
+            Wir empfehlen die Benutzung der öffentlichen Verkehrsmittel, da es kaum Parkplätze in unmittelbarer Umgebung gibt. Der nächste öffentliche Parkplatz ist 600m in der Heinrich-Heine-Straße.
           
           aboutUs: |
             Im Jahr 2024 haben wir einen Verein gegründet, um die dev-schmiede zu organisieren. Der Zweck des Vereins ist die Förderung der Bildung und Weiterbildung von EntwicklerInnen. Wir möchten eine Plattform schaffen, auf der sich EntwicklerInnen austauschen und voneinander lernen können. Die dev-schmiede ist eine Veranstaltung, die von der Community für die Community organisiert wird. Wir freuen uns, wenn du dabei bist! 🎉
@@ -83,7 +84,7 @@ languages:
               profileUrl: https://avatars.githubusercontent.com/u/165155?v=4
               description: |
                 Marco ist ehemaliger Community Lead der Alt.Net Berlin und aktives Mitglied der Berliner Community.
-                
+
             - organizer: Janek
               firstName: Janek
               lastName: Fellien
