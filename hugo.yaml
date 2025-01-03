@@ -20,16 +20,21 @@ params:
         embeddableMapUrl: //umap.openstreetmap.de/de/map/dev-schmiede_78497?scrollWheelZoom=false
         viewLargerMapUrl: //umap.openstreetmap.de/de/map/dev-schmiede_78497
         # Link to edit: https://umap.openstreetmap.de/de/map/anonymous-edit/78497:H3UprNashvo-9q-WWpXT7FWFQVGV12OzOGqzLF56-mw
+      
       callToAction:
         other:
           url: https://events.justattend.com/events/conference-tickets/3e65b640
         enableBanner: false
+
+      socialLinks:
+        xUrl: https://bsky.app/profile/dev-schmiede.bsky.social
       
       images:
         logo: logos/lightmode-logo-devschmiede-1-ohne-text.png
         headerLogo: images/header-logo.png
         titleBackground: images/Schmiede1.jpg
         location: images/adesso_se.jpg
+      
       colors:
         primaryLighter: '#ff787d'
         primary: '#BD2A2E'
@@ -39,6 +44,7 @@ params:
         secondaryDarker: '#525b5c'
         track: '#015a57'
         shadow: '#a6afc366'
+  
   custom_css: ["styles/custom.css"]
 
 defaultContentLanguage: de
