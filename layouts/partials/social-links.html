@@ -12,14 +12,18 @@
 
 <ul class="social-links" aria-labelledby="{{ $labelId }}">
 
-    {{- if $input.xUrl }}
+    {{- range $input.socialLinks}}
         <li class="social-links__menu-item">
             <a
-                href="{{- $input.xUrl }}"
-                aria-label="bsky"
+                href="{{ .xUrl }}"
+                aria-label="{{ .label }}"
                 rel="external"
-                class="social-links__link {{ $input.linkClass }}">
-                {{- partial "graphics/social/bsky.html" }}
+                class="social-links__link {{ .linkClass }}">
+                {{ if templates.Exists ( printf "partials/%s" .graphic ) }}
+                    {{- partial .graphic }}
+                {{ else }}
+                    {{ .label }}
+                {{ end }}
             </a>
         </li>
     {{ end }}

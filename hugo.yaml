@@ -25,9 +25,6 @@ params:
         other:
           url: https://events.justattend.com/events/conference-tickets/3e65b640
         enableBanner: false
-
-      socialLinks:
-        xUrl: https://bsky.app/profile/dev-schmiede.bsky.social
       
       images:
         logo: logos/lightmode-logo-devschmiede-1-ohne-text.png
@@ -44,7 +41,18 @@ params:
         secondaryDarker: '#525b5c'
         track: '#015a57'
         shadow: '#a6afc366'
-  
+    
+  socialLinks:
+    - label: bsky
+      xUrl: https://bsky.app/profile/dev-schmiede.bsky.social
+      graphic: graphics/social/bsky.html
+    - label: mastodon
+      xUrl: https://mastodon.social/@dev_schmiede
+      graphic: graphics/social/mastodon.html
+    - label: threads
+      xUrl: https://www.threads.net/@dev_schmiede
+      graphic: graphics/social/threads.html
+
   custom_css: ["styles/custom.css"]
 
 defaultContentLanguage: de

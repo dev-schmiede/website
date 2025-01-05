@@ -117,9 +117,9 @@
                 <div class="page-sidebar__social-links">
                     {{- partial "social-links.html" (
                         dict
-                        "xUrl" .Site.Params.themes.event.socialLinks.xUrl
                         "linkClass" "page-sidebar__social-link"
-                        )
+                        "socialLinks" .Site.Params.socialLinks
+                         )
                     }}
                 </div>
 
@@ -183,11 +183,8 @@
 
                     {{- partial "social-links.html" (
                         dict
-                        "linkedinUrl" .Site.Params.themes.event.socialLinks.linkedinUrl
-                        "xUrl" .Site.Params.themes.event.socialLinks.xUrl
-                        "facebookUrl" .Site.Params.themes.event.socialLinks.facebookUrl
-                        "companyUrl" .Site.Params.themes.event.socialLinks.companyUrl
                         "linkClass" "page-footer-section__social-link"
+                        "socialLinks" .Site.Params.socialLinks
                         "ariaLabel" (T "social-links_list.label")
                         )
                     }}
