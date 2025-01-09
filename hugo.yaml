@@ -142,11 +142,25 @@ languages:
 
             - workshop: EventSourcing
               description: |
-                #### Event Sourcing 🇩🇪
+                #### Event Sourcing Hyperfokus 🇩🇪
 
                 [Marco Heimeshoff](https://www.linkedin.com/in/heimeshoff/)
 
-                TBD
+                In diesem eintägigen Workshop tauchen wir tief in die Welt von Event Sourcing ein, um semantische, skalierbare und entkoppelte Anwendungen zu entwickeln. Der Fokus liegt darauf, bewährte Praktiken und Muster zu verstehen und anzuwenden, um langlebige, evolvierende und verteilte Systeme erfolgreich umzusetzen.
+
+                * Nutzung von Ereignissen als atomare Bausteine der Domäne
+                * Grundlagen von Ereignisbasierter Persistenz
+                * Heuristiken zur Gestaltung und Entkopplung von Kontexten und Services
+                * Die wundervolle Semantik ereignisbasierter Tests
+                * Reaktives Verhalten mit Sagas
+                * Strategien für Skalierbarkeit und Konsistenz
+                * Reflexion zu den Implikationen von CQRS und Event Sourcing
+                * (optional) Event Sourcing und Domain-Driven Design
+                * (optional) EventSourcing im Frontend
+
+                Funktionale und objektorientierte Ansätze besprechen wir, abhängig vom Teilnehmer Interesse. Es sind keine Vorkenntnisse notwendig, aber falls vorhanden, bringt sie gerne mit ein.
+
+                Am Ende des Workshops werden die Teilnehmenden in der Lage sein, Event Sourcing als Werkzeug für die Gestaltung robuster, moderner Anwendungen einzusetzen – von der ersten Idee bis zur Umsetzung in die Praxis.
 
             - workshop: EventStorming
               description: |
