@@ -174,11 +174,24 @@ languages:
 
             - workshop: FSharp
               description: |
-                #### FSharp 🇩🇪
+                #### Funktionale Programmierung (mit F#) 🇩🇪
 
                 [Max Malook](https://www.linkedin.com/in/maxmalook/)
 
-                TBD
+                Das Thema funktionale Programmierung ist dir bestimmt schon mal über den Weg gelaufen und endlich ist die Zeit gekommen sich mit diesem Paradigma zu beschäftigen.
+
+                Im Workshop lernen wir die Grundlagen der funktionalen Programmierung kennen:
+                * (pure) functions
+                * immutable data structures
+                * pipelines
+                * composition
+                * pattern matching
+                * (optional) OOP interop
+                * (optional) DSLs
+
+                Willst du diese "funktionale Programmierung" mal ausprobieren, begrüße ich dich gerne in diesem Workshop. Solltest du jedoch kein Interesse haben, ein neues Paradigma kennenzulernen, ist deine Zeit besser in einem anderen Workshop investiert.
+
+                Auf deinem Rechner solltest du [JetBrains Rider](https://www.jetbrains.com/rider/download) und das [.NET 9.0 SDK](https://dotnet.microsoft.com/en-us/download) installiert haben.
                 
             - workshop: SoftwareArchitecture
               description: |
