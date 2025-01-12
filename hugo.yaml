@@ -124,11 +124,17 @@ languages:
 
             - workshop: SemanticKernel
               description: |
-                #### Semantic Kernel 🇩🇪
+                #### Einführung in Semantic Kernel mit C# und Anwendung auf eine Vector-Datenbank 🇩🇪
 
                 [Sia Ghassemi](https://www.linkedin.com/in/dersia/)
 
-                TBD
+                In diesem praxisorientierten Workshop lernst du die Grundlagen der Immitatoren (GenAI), und erhältst eine fundierte Einführung in Semantic Kernel mit C#.
+
+                Wir beginnen mit der Erstellung einer Konsolenanwendung, die als Basis dient. Danach setzen wir Semantic Kernel ein, um Daten aus einer Vector-Datenbank abzurufen. Diese Datenbank enthält ein Wiki zu Produkten der imaginären Firma "Karl-Heinz und Söhne, Die MeisterHandwerker". Deine Aufgabe wird es sein, eine Integration zu entwickeln, die Semantic Kernel verwendet, um die Datenbank anzusprechen und Fragen der Nutzer zu beantworten.
+
+                Im zweiten Teil des Workshops bauen wir gemeinsam eine Integration, die Semantic Kernel nutzt, um Daten aus einer Dokumenten-Datenbank und auch aus PDF-Dateien zu extrahieren, diese zu vectorisieren und anschließend in die Vector-Datenbank zu schreiben.
+
+                Am Ende des Workshops wirst du nicht nur die Theorie hinter Semantic Kernel verstehen, sondern auch praktische Erfahrungen in der Anwendung und Integration gesammelt haben.
 
             - workshop: Godot
               description: |
